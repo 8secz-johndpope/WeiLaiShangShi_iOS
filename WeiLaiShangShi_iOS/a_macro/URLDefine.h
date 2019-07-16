@@ -26,8 +26,10 @@
 
 //#define kMHHost1 @"http://192.168.88.116:8085"
 //#define kMHHost2 @"http://192.168.88.116:8085"
-#define kMHHost1 @"http://192.168.88.116:8085"
-#define kMHHost2 @"http://192.168.88.116:8085"
+
+//http://60.168.131.213:8085/
+#define kMHHost1 @"http://60.168.131.213:8085"
+#define kMHHost2 @"http://60.168.131.213:8085"
 #define kMHHostWap1 @"https://testwap.hooshao.com"
 #define kMHHostWap2 @"https://wap.langshunkeji.com"
 
