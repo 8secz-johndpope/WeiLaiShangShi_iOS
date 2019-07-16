@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>qos</key>
+	<integer>0</integer>
+	<key>groupId</key>
+	<string>GID_newsmq</string>
+	<key>secretKey</key>
+	<string>2unmpHPuwdiVKumR3lB2x9wJlyo9V7</string>
+	<key>accessKey</key>
+	<string>LTAIboqZRyo6NcPk</string>
+	<key>host</key>
+	<string>post-cn-0pp176ewd0k.mqtt.aliyuncs.com</string>
+	<key>port</key>
+	<real>1883</real>
+	<key>tls</key>
+	<false/>
+	<key>rootTopic</key>
+	<string>putong</string>
+	<key>instanceId</key>
+	<string>post-cn-0pp176ewd0k</string>
+</dict>
+</plist>
