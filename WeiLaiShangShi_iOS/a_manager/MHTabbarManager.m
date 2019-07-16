@@ -37,7 +37,7 @@
 #import "HSWalletViewController.h"
 #import "HSAdvertiserVC.h"
 #import "HSFindVC.h"
-
+#import "WSLiveVideo.h"
 
 @interface MHTabbarManager ()<UITabBarControllerDelegate>
 
@@ -82,7 +82,7 @@
     UIViewController *secondNavigationController = [[CYLBaseNavigationController alloc]
                                                     initWithRootViewController:secondViewController];
     
-    HSFindVC *cateroyViewController = [[HSFindVC alloc] init];
+    WSLiveVideo *cateroyViewController = [[WSLiveVideo alloc] init];
     UIViewController *cateroyNavigationController = [[CYLBaseNavigationController alloc]
                                                     initWithRootViewController:cateroyViewController];
     
@@ -121,7 +121,7 @@
 
 - (NSArray *)tabBarItemsAttributesForController {
     NSDictionary *firstTabBarItemsAttributes = @{
-                                                 CYLTabBarItemTitle : @"资讯",
+                                                 CYLTabBarItemTitle : @"首页",
                                                  CYLTabBarItemImage : @"home_nomal",  /* NSString and UIImage are supported*/
                                                  CYLTabBarItemSelectedImage : [UIImage imageNamed:@"home_highlight"],
                                                  };
@@ -132,7 +132,7 @@
                                                  CYLTabBarItemSelectedImage : [UIImage imageNamed:@"wallet_highlight"],
                                                  };
     NSDictionary *secondTabBarItemsAttributes = @{
-                                                  CYLTabBarItemTitle : @"发现",
+                                                  CYLTabBarItemTitle : @"直播",
                                                   CYLTabBarItemImage : @"level_nomal",
                                                   CYLTabBarItemSelectedImage : [UIImage imageNamed:@"level_highlight"],
                                                   };
